@@ -1,0 +1,1014 @@
+## Игнорируемые файлы и папки для C# проектов
+## Версия: Универсальная
+
+# ====================
+# IDE и редакторы
+# ====================
+
+## Visual Studio
+.vs/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+.vscode/
+.vsconfig
+
+## Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+*.sln.DotSettings.user
+.DS_Store
+
+## MonoDevelop
+*.pidb
+*.userprefs
+
+## Eclipse
+.project
+.classpath
+.settings/
+
+## Cursor IDE
+.cursor/
+.cursorignore
+
+## VS Code Remote - Containers
+.devcontainer/
+!.devcontainer/devcontainer.json
+!.devcontainer/Dockerfile
+
+# ====================
+# Результаты сборки
+# ====================
+
+## Выходные папки
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+out/
+build/
+output/
+publish/
+dist/
+target/
+
+## Сгенерированные файлы
+*.dll
+*.exe
+*.pdb
+*.so
+*.dylib
+*.lib
+*.exp
+*.ilk
+*.xml
+*.nupkg
+*.nuspec
+*.snk
+*.pfx
+
+## Файлы отладки
+*.log
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+*.old
+*.bak
+*.orig
+
+## Сборка для публикации
+publish/
+Published/
+PublishOutput/
+
+## Native
+*.o
+*.obj
+*.so
+*.dylib
+*.lib
+*.exp
+*.ilk
+
+# ====================
+# NuGet
+# ====================
+
+## NuGet packages
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+**/packages/*
+!**/packages/build/
+!**/packages/repositories/
+
+## NuGet fallback
+.nuget/
+NuGet.exe
+NuGet.config
+!NuGet.Config
+
+## NuGet v3
+**/project.assets.json
+*.nuget.g.props
+*.nuget.g.targets
+
+## NuGet Packages directory used by Paket
+.paket/
+paket-files/
+paket.lock
+paket.dependencies
+
+# ====================
+# Тестирование
+# ====================
+
+## Test results
+TestResults/
+*.trx
+*.trx
+*.coverage
+*.coveragexml
+*.testlog
+*.vstest
+*.testresults
+coverage/
+coverage.json
+*.opencover.xml
+*.lcov
+*.xml
+
+## NCrunch
+*.ncrunch*
+_NCrunch_*
+.*crunch*.local.xml
+
+## xUnit
+xunit.runner.json
+*.xunit
+
+## NUnit
+TestResult.xml
+nunit-*.xml
+
+## SpecFlow
+*.feature.cs
+*.feature.xlsx
+*.feature.zh-cn.xlsx
+*.feature.de.xlsx
+
+## Coverage
+coverage.opencover.xml
+lcov.info
+*.coverlet.json
+*.coverlet.xml
+
+## Playwright
+playwright/.auth/
+playwright-report/
+test-results/
+
+# ====================
+# Базы данных
+# ====================
+
+## Entity Framework Migrations
+*.migration.sql
+*.migration.json
+*.dbmdl
+*.jfm
+
+## Local databases
+*.db
+*.mdf
+*.ldf
+*.sdf
+*.mdb
+*.accdb
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+## Local connection strings
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+connectionstrings.config
+*.db.config
+
+## Azure Storage Emulator
+AzureStorageEmulator.exe
+AzureStorageEmulator*.*
+
+## Local databases for development
+**/App_Data/*.mdf
+**/App_Data/*.ldf
+**/App_Data/*.sdf
+
+# ====================
+# Логи и временные файлы
+# ====================
+
+## Логи
+*.log
+*.error
+*.trace
+logs/
+log/
+*.diagnostics
+*.etl
+
+## Temp files
+tmp/
+temp/
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+
+## System files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*.*~
+~$*
+
+## Windows
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+## Linux
+*~
+.directory
+*.kate-swp
+*.screen
+.session
+
+## macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+*.DS_Store
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ====================
+# Конфигурации
+# ====================
+
+## User-specific configuration files
+*.user.config
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+appsettings.*.Development.json
+appsettings.*.Production.json
+appsettings.*.Staging.json
+appsettings.*.json.encrypted
+appsettings.*.Production.local.json
+*.Production.json
+*.Development.json
+*.Staging.json
+
+## Secrets
+secrets.json
+appsettings.Secrets.json
+*.secret
+*.key
+*.pem
+*.crt
+*.private.xml
+*.private.config
+*.encrypted.config
+*.encrypted.json
+*.credentials
+credentials.json
+*.pubxml.user
+*.pubxml
+PublishProfiles/
+
+## Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.staging
+.env.test
+.env.example
+!.env.example
+
+## Certificates
+*.pfx
+*.p12
+*.cer
+*.crt
+*.key
+*.pem
+*.der
+*.keystore
+*.jks
+*.truststore
+*.cscfg
+*.cscfg.bak
+
+# ====================
+# Docker и контейнеризация
+# ====================
+
+## Docker
+docker-compose.override.yml
+docker-compose.override.yaml
+docker-compose.*.yml
+!docker-compose.yml
+!docker-compose.yaml
+docker-compose.*.yaml
+Dockerfile.*
+!Dockerfile
+.dockerignore
+.docker/
+docker-data/
+*.dockercontext
+
+## Kubernetes
+*.kubeconfig
+kubeconfig
+.kube/
+helm/charts/
+*.helm
+values.*.yaml
+!values.yaml
+!values.ci.yaml
+
+## Container data
+data/
+volumes/
+container-data/
+docker-volumes/
+*.container
+*.containerdata
+
+# ====================
+# DevOps и CI/CD
+# ====================
+
+## CI/CD
+.gitlab/
+.gitlab-ci.yml
+!.gitlab-ci.yml
+.github/
+!.github/workflows
+.azuredevops/
+*.azure-pipelines.yml
+Jenkinsfile
+!.jenkins
+.teamcity/
+.buildserver/
+buildserver/
+
+## Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+*.tfvars.json
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+override.tf
+override.tf.json
+terraform.rc
+.terraform.lock.hcl
+
+## Ansible
+*.retry
+ansible.cfg
+hosts.ini
+inventory/
+!inventory/example
+
+## AWS
+.aws/
+aws-config.json
+*.pem
+*.aws.json
+elasticbeanstalk/
+*.elasticbeanstalk
+
+## Azure
+.azure/
+azurerc
+*.azure.json
+*.azureauth
+azuredeploy.json
+azuredeploy.parameters.json
+
+## Google Cloud
+.gcloud/
+*.gcp.json
+*.gcprc
+application_default_credentials.json
+
+# ====================
+# Документация
+# ====================
+
+## Generated docs
+docs/_build/
+docs/api/
+docs/_site/
+Documentation/_site/
+Documentation/obj/
+docs/generated/
+*.chm
+*.html
+*.pdf
+*.epub
+*.mobi
+*.docx
+*.doc
+
+## Help files
+*.Hlp
+*.HLP
+*.chm
+*.htb
+
+# ====================
+# Фреймворки и библиотеки
+# ====================
+
+## ASP.NET Core
+logs/
+aspnetcore-browser-refresh.js
+app_offline.htm
+wwwroot/_framework/
+wwwroot/_content/
+wwwroot/css/ *.min.css
+wwwroot/js/ *.min.js
+*.bundle.js
+*.bundle.css
+*.bundle.min.js
+*.bundle.min.css
+
+## Node.js (если используется для клиента)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.eslintcache
+.stylelintcache
+
+## Python (если используются Python скрипты)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+poetry.lock
+Pipfile.lock
+.pyre/
+.pytype/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+.ruff_cache/
+
+## Angular/React (если фронтенд внутри)
+node_modules/
+dist/
+build/
+*.js.map
+*.css.map
+coverage/
+browser/
+release/
+
+## SignalR
+*.map
+*.ts
+*.js.map
+*.d.ts
+
+# ====================
+# Инструменты разработки
+# ====================
+
+## Git
+*.orig
+*.patch
+*.diff
+*.merge
+*.conflict
+*.base
+*.remote
+*.local
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*.orig.*
+*.rej
+*.swp
+*.swo
+*_BACKUP_*
+*_BASE_*
+*_LOCAL_*
+*_REMOTE_*
+
+## Git LFS
+*.lfs
+*.lfs-*
+
+## Subversion
+.svn/
+*.svn
+
+## Mercurial
+.hg/
+.hgignore
+.hgtags
+
+## FodyWeavers
+FodyWeavers.xml
+FodyWeavers.xsd
+
+## ReSharper
+_ReSharper*/
+*.ReSharper*
+*.resharper.user
+*.resharper
+*.DotSettings.user
+*.DotSettings
+*.resharper
+*.resharper.user
+
+## SonarQube
+.sonarqube/
+.sonar/
+*.sonarqube
+*.sonar
+
+## DotCover
+dotCover/
+*.dotCover
+*.dotCover.user
+
+## NDepend
+NDependOut/
+*.ndproj.user
+
+## StyleCop
+StyleCop.Cache
+*.StyleCop
+*.stylecop
+
+## Xamarin
+*.userprefs
+*.dsb
+*.xcarchive
+*.ipa
+*.apk
+*.vsix
+*.appx
+*.msix
+*.appxbundle
+*.msixbundle
+*.appxupload
+*.msixupload
+*.appxrecipe
+*.msixrecipe
+*.cer
+*.pfx
+
+# ====================
+# Деплой и публикация
+# ====================
+
+## Deploy
+*.deploy
+*.deployproj
+*.deploy.cmd
+*.deploy.ps1
+*.deploy.json
+*.publish.xml
+*.publish.json
+*.publish.ps1
+*.azurePubxml
+*.pubxml.user
+PublishScripts/
+PublishProfiles/
+
+## Web deploy
+*.deploy.cmd
+*.deploy.readme.txt
+*.SetParameters.xml
+*.SourceManifest.xml
+*.deploy.ps1
+*.tmp
+*.tmp.config
+*.tmp.dll
+*.publish.xml
+*.publish.json
+*.pubxml
+*.pubxml.user
+
+## Azure
+*.azurePubxml
+*.scpubxml
+*.scpubxml.user
+*.azurePubxml.user
+*.azure.config
+*.azure.csdef
+*.azure.cscfg
+*.azure.ccproj
+*.azure.pubxml
+*.azure.pubxml.user
+
+## AWS
+*.aws
+*.aws.xml
+*.aws.json
+*.aws.ps1
+*.aws.cmd
+*.aws.deploy
+*.aws.publish
+*.aws.pubxml
+*.aws.pubxml.user
+
+## Google Cloud
+*.gcp
+*.gcp.xml
+*.gcp.json
+*.gcp.ps1
+*.gcp.cmd
+*.gcp.deploy
+*.gcp.publish
+*.gcp.pubxml
+*.gcp.pubxml.user
+
+# ====================
+# Безопасность и шифрование
+# ====================
+
+## Encryption
+*.enc
+*.encrypted
+*.crypt
+*.gpg
+*.pgp
+*.asc
+*.key
+*.pem
+*.crt
+*.cer
+*.der
+*.pfx
+*.p12
+*.keystore
+*.jks
+*.truststore
+
+## Credentials
+*.credentials
+*.cred
+*.auth
+*.token
+*.tokens
+*.refresh_token
+*.access_token
+*.id_token
+*.secret
+*.secrets
+*.password
+*.pass
+*.keyring
+*.keychain
+*.wallet
+
+## API keys
+*.api_key
+*.apikey
+*.api-key
+*.keyfile
+*.key.json
+*.service_account
+*.service-account
+*.serviceaccount
+
+## Connection strings
+*.connectionstrings
+*.connection-strings
+*.connstr
+*.conn-string
+
+# ====================
+# Производительность и профилирование
+# ====================
+
+## Profiling
+*.profiler
+*.vsp
+*.vspx
+*.psess
+*.pssession
+*.etl
+*.etlx
+*.diagsession
+*.nettrace
+*.gcdump
+*.netperf
+*.perfview
+
+## Benchmark
+BenchmarkDotNet.Artifacts/
+*.benchmark
+*.benchmarks
+*.bmdotnet
+*.bdn
+*.full.json
+*.full.html
+*.full.md
+
+## Memory dumps
+*.dmp
+*.hdmp
+*.mdmp
+*.core
+*.crashdump
+*.writemindump
+*.minidump
+
+# ====================
+# Разное
+# ====================
+
+## Tooling
+tools/
+Tools/
+packages/
+Packages/
+lib/
+Lib/
+libs/
+Libs/
+dll/
+Dll/
+
+## Scripts
+*.ps1
+!deploy.ps1
+!build.ps1
+!test.ps1
+*.sh
+!deploy.sh
+!build.sh
+!test.sh
+*.bat
+!deploy.bat
+!build.bat
+!test.bat
+*.cmd
+!deploy.cmd
+!build.cmd
+!test.cmd
+
+## Backups
+*.backup
+*.bak
+*.bkp
+*.old
+*.orig
+*.copy
+*.copied
+*.saved
+*.save
+*.back
+*.backup.*
+*.bak.*
+*.bkp.*
+
+## Archives
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+*.iso
+*.img
+*.dmg
+*.pkg
+*.msi
+*.deb
+*.rpm
+
+## Virtual machines
+*.vhd
+*.vhdx
+*.vmdk
+*.vdi
+*.ova
+*.ovf
+*.box
+*.vagrant
+.vagrant/
+Vagrantfile
+!.vagrant
+
+## Windows specific
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+*.exe
+*.com
+*.scr
+*.hta
+*.msc
+*.cpl
+*.ocx
+*.ax
+*.mui
+
+## Linux specific
+*~
+.directory
+*.lock
+*.socket
+*.sock
+*.pid
+*.seed
+*.kdump
+*.core
+
+## macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+*.DS_Store
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.icloud
+*.icloud.download
+
+# ====================
+# Исключения (файлы, которые мы НЕ игнорируем)
+# ====================
+
+## Важные файлы конфигурации
+!.gitignore
+!.gitattributes
+!.editorconfig
+!.dockerignore
+!.env.example
+!appsettings.json
+!appsettings.Development.json
+!appsettings.Production.json
+!appsettings.Local.json.example
+!launchSettings.json
+!launch.json
+!tasks.json
+!.gitkeep
+!.gitmodules
+!.mailmap
+
+## Шаблоны и примеры
+!*.example
+!*.sample
+!*.template
+!*.dist
+!*.default
+
+## Файлы проекта
+!*.csproj
+!*.fsproj
+!*.vbproj
+!*.sln
+!*.nuget.props
+!*.nuget.targets
+
+## Конфигурации CI/CD
+!.github/workflows/*
+!.gitlab-ci.yml
+!.azure-pipelines.yml
+!Jenkinsfile
+!.travis.yml
+!.circleci/config.yml
+!.teamcity/settings.kts
+
+## Docker
+!Dockerfile
+!docker-compose.yml
+!.dockerignore
+
+## Документация
+!README.md
+!CONTRIBUTING.md
+!LICENSE
+!CHANGELOG.md
+!CODE_OF_CONDUCT.md
+!SECURITY.md
+!SUPPORT.md
+
+## Конфигурации инструментов
+!.editorconfig
+!.prettierrc
+!.eslintrc
+!.stylecop
+!.sonarlint
+!.resharper
+!.dotSettings
+!.runsettings
+!.coverlet.msbuild
+!.ncrunch
+!.omnisharp.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json.example
+
+## Тестовые данные
+!test-data/
+!testdata/
+!TestData/
+!testfiles/
+!TestFiles/
+!*.testdata
+!*.test.json
+!*.test.xml
+!*.test.sql
+
+## Папки с ресурсами
+!wwwroot/uploads/
+!uploads/
+!media/
+!static/
+!public/
+!resources/
+!Assets/
+!assets/
+!Content/
+!content/
+
+## Шаблоны проектов
+!.template.config/
+!.template/
+!*.template.csproj
+!*.template.sln
+
+# ====================
+# Завершающая строка (для Git)
+# ====================
+# Всегда добавлять новую строку в конце
