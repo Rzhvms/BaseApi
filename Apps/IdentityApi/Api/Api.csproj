@@ -12,12 +12,12 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\Libs\LoggingLib\LoggingLib.csproj" />
-      <ProjectReference Include="..\..\..\Libs\IdentityLib\IdentityLib.csproj" />
-      <ProjectReference Include="..\..\..\Libs\CoreLib\CoreLib.csproj" />
       <ProjectReference Include="..\Application\Application.csproj" />
       <ProjectReference Include="..\Domain\Domain.csproj" />
       <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+      <ProjectReference Include="..\..\..\Libs\IdentityLib\IdentityLib.csproj" />
+      <ProjectReference Include="..\..\..\Libs\LoggingLib\LoggingLib.csproj" />
+      <ProjectReference Include="..\..\..\Libs\CoreLib\CoreLib.csproj" />
       <ProjectReference Include="..\..\..\Libs\DatabaseLib\DatabaseLib.csproj" />
     </ItemGroup>
 
