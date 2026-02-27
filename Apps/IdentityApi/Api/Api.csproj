@@ -4,6 +4,7 @@
         <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
     <ItemGroup>
@@ -19,6 +20,12 @@
       <ProjectReference Include="..\..\..\Libs\LoggingLib\LoggingLib.csproj" />
       <ProjectReference Include="..\..\..\Libs\CoreLib\CoreLib.csproj" />
       <ProjectReference Include="..\..\..\Libs\DatabaseLib\DatabaseLib.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
     </ItemGroup>
 
 </Project>
