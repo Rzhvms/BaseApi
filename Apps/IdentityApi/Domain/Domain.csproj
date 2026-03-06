@@ -6,4 +6,12 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Entities\DatabaseModels\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Libs\DatabaseLib\DatabaseLib.csproj" />
+    </ItemGroup>
+
 </Project>
